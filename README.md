@@ -133,18 +133,6 @@ Instead of relying on a static decision threshold ($\tau = 0.5$), SAPT dynamical
 
 Evaluated on the PhysioNet CinC 2016 Heart Sound Challenge dataset with patient-level split isolation:
 
-| Model Architecture | F1 Score (%) | Accuracy (%) | Sensitivity (%) | Specificity (%) |
-| :--- | :---: | :---: | :---: | :---: |
-| **CNN-$H_\infty$-LSTM with SAPT (Ours)** | **98.85** | **99.42** | **99.23** | **99.49** |
-| CNN-LSTM with SAPT | 96.19 | 98.16 | 94.69 | 99.29 |
-| CRNN (Deng et al., 2020) | 98.34 | 98.34 | 98.66 | 98.01 |
-| ResNet-50 | 89.68 | 88.94 | 93.83 | 83.82 |
-| Vision Transformer (ViT) | 84.23 | 95.23 | 89.97 | 96.08 |
-| Capsule Neural Network (Tsai et al., 2022) | 91.00 | 90.00 | 84.87 | — |
-| LSTM-CNN (Chen et al., 2022) | 91.00 | 86.00 | 87.00 | 82.00 |
-| Log-Mel VGGNet (Li et al., 2022) | — | — | 89.50 | 89.70 |
-| Wav2Vec 2.0 (End-to-End Audio) | 69.54 | 68.14 | 63.26 | 63.24 |
-
 ![Performance Comparison](docs/images/perf-comparison.png)
 *Figure 2: Performance comparison between proposed model and top-performing baseline architectures.*
 
